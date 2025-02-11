@@ -1,0 +1,31 @@
+# Simple Qt Application
+
+This is a basic Qt application that opens a simple window.
+
+## Build Instructions
+
+1. **Build the Application:**
+
+   ```bash
+   mkdir build
+   cd build
+   cmake ..
+   make
+   ```
+
+3. **Run the Application:**
+
+   After building, execute the application using:
+
+   ```bash
+   LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libpthread.so.0 ./SimpleQtApp
+   ```
+
+## Prerequisites
+
+Ensure that you have the following installed on your system:
+
+- Qt 5 Libraries
+- CMake
+- GNU Compiler Collection (GCC)
+- Make
